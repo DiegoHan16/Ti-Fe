@@ -1,0 +1,8 @@
+edge-basal-Eint.sh
+edge-prism-Eint.sh
+screw-basal-Eint.sh
+screw-prism-Eint.sh
+These four shell scripts are used to calculate the Fe–dislocation interactions. 
+The scripts take the strain file of the Fe atom as input and then automatically compute the λ-tensor (Eqs. 2~6), λ'-tensor (Eq. 8), interaction energy Eint (x,y) (Eq. 7), and interaction force F(x) (Eq. 9). 
+The dislocation stress field has already been embedded in the scripts according to the dislocation type. 
+The off-center directions of the Fe atom has also been written into the scripts, with the corresponding scripts placed in the LS1, LS2, and LS3 folders, respectively.
